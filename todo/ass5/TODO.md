@@ -1,0 +1,4 @@
+- [x] Create db.php for database connection
+- [x] Create index.php with HTML registration form
+- [x] Create register.php to handle form submission and insert data
+- [x] Test the setup in XAMPP

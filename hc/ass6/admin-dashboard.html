@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <button id="logout-btn">Logout</button>
+        </header>
+        <main>
+            <h2>Event Records</h2>
+            <table id="events-table">
+                <thead>
+                    <tr>
+                        <th>Event ID</th>
+                        <th>Event Name</th>
+                        <th>Date</th>
+                        <th>Location</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Tech Conference</td>
+                        <td>2023-10-15</td>
+                        <td>New York</td>
+                        <td>
+                            <button class="update-btn">Update</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Music Festival</td>
+                        <td>2023-11-20</td>
+                        <td>Los Angeles</td>
+                        <td>
+                            <button class="update-btn">Update</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Art Exhibition</td>
+                        <td>2023-12-05</td>
+                        <td>Chicago</td>
+                        <td>
+                            <button class="update-btn">Update</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
